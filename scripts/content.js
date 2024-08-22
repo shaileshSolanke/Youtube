@@ -6,7 +6,7 @@ videos.forEach((video) => {
   content.innerHTML += `
 <div class="video-preview">
         <div class="video-thumbnail">
-          <a href=${video.videoURL}>
+          <a href=${video.videoURL} target="_blank">
             <img
             src=${video.videoThumbnailURL}
           />
@@ -15,7 +15,7 @@ videos.forEach((video) => {
         </div>
         <div class="video-info">
           <div class="channel-profile">
-            <a href=${video.videoChannelURL}>
+            <a href=${video.videoChannelURL} target="_blank">
               <img
                 src=${video.channelProfile}
               />

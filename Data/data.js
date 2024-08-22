@@ -145,7 +145,7 @@ export const videos = [
     videoTimeDuration: "3:36",
     channelProfile: "./assets/images/channel-profile/vevo-profile.jpg",
     videoTitle:
-      "TThe Hanging Tree’ James Newton Howard ft. Jennifer Lawrence (Official Audio)",
+      "The Hanging Tree’ James Newton Howard ft. Jennifer Lawrence (Official Audio)",
     channelName: "Vevo",
     channelVerified: true,
     videoViews: "50M",
