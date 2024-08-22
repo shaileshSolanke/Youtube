@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/youtube.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/suggestion.css" />
+    <link rel="stylesheet" href="./styles/content.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left-nav">
+        <img
+          class="menu-logo"
+          src="./assets/icons/menu.svg"
+          alt="menu-icon-image"
+        />
+        <img
+          class="youtube-logo"
+          src="./assets/icons/youtube-logo.svg"
+          alt="youtube-logo-image"
+        />
+      </div>
+      <div class="middle-nav">
+        <div class="input">
+          <input type="text" placeholder="Search" />
+          <img src="./assets/icons/search.svg" alt="search-icon-image" />
+        </div>
+        <div class="microphone">
+          <img
+            src="./assets/icons/microphone.svg"
+            alt="microphone-icon-image"
+          />
+        </div>
+      </div>
+      <div class="right-nav">
+        <div>
+          <img src="./assets/icons/ellipsis.svg" alt="ellipsis-icon-image" />
+        </div>
+        <div class="sign-in-container">
+          <img src="./assets/icons/account.svg" alt="account" />
+          <span>Sign in</span>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div>
+        <img src="./assets/icons/home.svg" alt="home-image" />
+        <span>Home</span>
+      </div>
+      <div>
+        <img
+          src="./assets/icons/youtube-shorts.svg"
+          alt="youtube-shorts-image"
+        />
+        <span>Shorts</span>
+      </div>
+      <div>
+        <img
+          src="./assets/icons/youtube-subscriptions.svg"
+          alt="youtube-subscriptions-image"
+        />
+        <span>Subscriptions</span>
+      </div>
+      <div>
+        <img src="./assets/icons/youtube-you.svg" alt="youtube-you-image" />
+        <span>You</span>
+      </div>
+      <div>
+        <img
+          src="./assets/icons/youtube-history.svg"
+          alt="youtube-history-image"
+        />
+        <span>History</span>
+      </div>
+    </nav>
+    <div class="suggestion"></div>
+    <div class="content"></div>
+    <script src="./scripts/suggestion.js" type="module"></script>
+    <script src="./scripts/content.js" type="module"></script>
+  </body>
+</html>
