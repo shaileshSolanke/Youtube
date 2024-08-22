@@ -26,7 +26,6 @@
   margin: 16px;
   display: flex;
   flex-direction: column;
-  z-index: -5;
 }
 .video-preview .video-thumbnail {
   position: relative;
