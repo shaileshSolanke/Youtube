@@ -157,7 +157,7 @@ export const videos = [
     videoThumbnailURL: "./assets/images/video-thumbnails/league-of-legends-thumbnail.jpg",
     videoChannelURL: "https://www.youtube.com/@leagueoflegends",
     videoTimeDuration: "3:33",
-    channelProfile: "./assets/images/channel-profile/vevo-profile.jpg",
+    channelProfile: "./assets/images/channel-profile/league-of-legends-profile.jpg",
     videoTitle:
       "Imagine Dragons & JID - Enemy (from the series Arcane: League of Legends) | Official Music Video",
     channelName: "League of Legends",
